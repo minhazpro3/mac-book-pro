@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Five</title>
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section>
+          <div class="row ">
+            <div class="grid md:grid-cols-2 mx-5 gap-4" >
+              <div>
+                <img class=" md:w-5/4 " src="images/mac.png" alt="">
+              </div>
+               <div>
+                <h1 class="text-4xl font-bold">Coustomize you blue 24-inch
+                  iMac with Apple M1 chip.</h1>
+                  <p class="text-1xl my-5">The M1 chip brings superfast unified memory to iMac. This single pool of high-bandwidth, low-latency memory allows apps to share data between the CPU, GPU, and Neural Engine efficiently — so everything you do is fast and fluid. Your iMac comes standard with 8GB of memory and can be expanded to 16GB.
+                  </p>
+                 <div>
+                  <h2 class="text-1xl font-bold">Memory </h2>
+                  <button id="first-button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100 border-5">8GB Unified Memory</button>
+                  <button id="second-button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100 border-5">16GB Unified Memory</button>
+
+                  <div class="my-4">
+                    <h2 class="text-1xl font-bold">Storage </h2>
+                    <button id="third-Button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100 ">256GB SSD Storage</button>
+                  <button id="four-button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100  ">512GB SSD Storage</button>
+                  <button id="five-button" class="btn bg-green-200 p-2 rounded-md border-4  hover:bg-purple-100 mt-1">1TB SSD Storage</button>
+                  </div>
+
+                  <div>
+                    <h2 class="text-1xl font-bold">Choose you delivery option </h2>
+                    <button id="six-button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100 ">Friday, 25 aut free prime delivery</button>
+                  <button id="seven-button" class="btn bg-green-200 p-2 rounded-md border-4 hover:bg-purple-100 mt-1">Friday, 21 delivery charge</button>
+                  </div>
+                  <div class="my-3">
+                    <div class="row ">
+                      <div class="grid grid-cols-2 bg-purple-100 rounded-md p-5">
+                        <div>
+                          <h2 class="font-bold">Best price:</h2>
+                          <h2 class="font-bold">Extra memory cost:</h2>
+                          <h2 class="font-bold">Extra storage cost:</h2>
+                          <h2 class="font-bold">Delivery charge:</h2>
+                          <h2 class="font-bold">Total price:</h2>
+                        </div>
+                        <div>
+                          <h2>$<span id="bestPrice-inner">1299</span></h2>
+                          <h2>$<span id="memory-inner">00</span></h2>
+                          <h2>$<span id="storage-inner">00</span></h2>
+                          <h2>$<span id="delivery-inner">00</span></h2>
+                          <h2>$<span id="total-inner">00</span></h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="">
+                    <input id="quiz-inner" class="bg-green-200 border-4 rounded p-1" type="text" >
+                   
+                    <button id="quiz-button" class="bg-green-300 border-4 p-1 hover:bg-red-600">Quiz</button>
+                  </div>
+                 </div>
+               </div>
+              </div>
+              <div>
+                <h2 id="final-price" class="text-3xl font-bold text-center my-5">Total: <span  id="final-price" >1299</span></h2>
+              </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
